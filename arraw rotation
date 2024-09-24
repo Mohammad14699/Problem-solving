@@ -1,0 +1,13 @@
+l =[ 1, 2, 3, 4, 5]                             
+k=2                                            
+#output ===>3 4 5 1 2
+
+nums = l[k:]+l[:k]
+print(nums)
+
+# left rotation                                 
+l =[ 1, 2, 3, 4, 5]
+k=2
+#output ===>4 5 1 2 3
+nums = l[-k:]+l[:-k]
+print(nums)
